@@ -1,11 +1,5 @@
 # Sleek
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
-
-A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
-
-![Sleek Jekyll Theme](./sleek.jpg)
-
 ## Features
 
 * Compatible with [Github Pages](https://pages.github.com/)
@@ -15,30 +9,6 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 * Support for [Disqus](https://disqus.com/) comments
 * Form submissions with [Formspree](#formspree)
 
-[Preview Demo](https://janczizikow.github.io/sleek/)
-
-## Installation
-
-### System Requirements
-
-To use this project, you'll need the following things on your local machine:
-
-#### Jekyll
-
-```shell
-gem install jekyll
-```
-
-#### NodeJS (8 or greater)
-
-Download and open the [NodeJS installer](https://nodejs.org/en/)
-
-#### Gulp CLI (optional, but recommended)
-
-```shell
-npm install --global gulp-cli
-```
-
 ### Up & Running
 
 1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
@@ -46,28 +16,6 @@ npm install --global gulp-cli
 3. Inside the directory run `bundle install` and `npm install`
 4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
     * if you don't want to use gulp you can run `bundle exec jekyll serve` instead
-
-#### Installing to existing jekyll project
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-sleek"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-sleek
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-sleek
 
 ## File Structure Overview
 
@@ -96,36 +44,6 @@ You can modify the theme by changing the settings in `_config.yml`.
 ### Posts
 
 Create a new Markdown file such as 2017-01-13-my-post.md in _post folder. Configure YAML Front Matter (stuff between `---`):
-
-```yaml
----
-layout: post # needs to be post
-title: Getting Started with Sleek # title of your post
-featured-img: sleek #optional - if you want you can include hero image
----
-```
-
-#### Images
-
-In case you want to add a hero image to the post, apart from changing featured-img in YAML, you also need to add the image file to the project. To do so, just upload an image in .jpg format to `_img` folder. The name must before the .jpg file extension has to match with featured-img in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart the jekyll server to see the changes.
-
-Sleek uses [Lazy Sizes](https://github.com/aFarkas/lazysizes). Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt’t require any configuration and it’s going to be included in your bundled js file.
-
-### Pages
-
-The home page is located under index.md file. To change the content or design you have to edit the default.html file in `_layouts` folder.
-
-In order to add a new page, create a new html or markdown file under root directory or inside _pages folder. To add a link in navigation add it in `_config.yml`:
-
-```yaml
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
-```
-
-`name` is the text that will be shown and link, well, it's a link.
 
 ### Site configuration
 
