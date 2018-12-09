@@ -15,35 +15,42 @@ needs. Images are provided in all of the popular digital formats.
 
 ![Orthophoto](/assets/img/posts/ortho_480.jpg)
 
-## Aerial DTM’s 
+## Aerial DTM’s and DEM's   
 
 Auto correlated and/or analytically observed ground data points for the cost effective terrain 
 modelling solution.
 
-![DTM model](/assets/img/posts/pit.jpg)
-
-| **col1** | _col2_ | *col3* |   |   |
-|----------|--------|--------|---|---|
-| a        | 1      | 'ay'   |   |   |
-| b        | 2      | 'bee'  |   |   |
-
-* ite 1
-* item 2
-  * dflkgjf
-  * dlkfjdlk
+![DTM model](/assets/img/posts/joined.jpg)
 
 
-1. number 1
-1. number 2
-    1. subitem 1
-        1. subsubitem 1
+## Photography
 
-[I'm an inline-style link](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+*There are three forms of photography that are used:*
+- Satellite imagery is used for large difficult to reach areas.
+100sq km or more
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+![Sat](/assets/img/posts/photo sat.jpg)
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+- Conventional large format aerial photography is generally used for the medium to large projects
 
-[You can use numbers for reference-style link definitions][1]
+![SPlane](/assets/img/posts/plane.jpg)
+
+- It is more cost effective to make use of small format photography for areas 300ha or less
+
+![Drone2](/assets/img/posts/PrecisionHawk-Screen.jpg)
+
+
+## Accuracy
+
+Depending on the camera used, the accuracy of the terrain model is a function of the raw pixel size of the imaging sensor.
+The general rule of thumb for model height accuracy is in the order of 1.5x the raw pixel size.
+
+## Contact Us
+
+We can provide a turn key solution which includes Planning, Photography, Ground Control and Digital Modeling
+
+- Deliverables: Orthophoto and contour plans to any scale. All the project data will be provided as a PDF as well as TIFF and Ascii files
+- We also provide a service whereby we can model data provided by the client. This provided data being photography and ground control
+
+
